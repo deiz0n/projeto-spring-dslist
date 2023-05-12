@@ -1,28 +1,25 @@
 package com.deizon.projetospringintensivao.dto;
 
-
 import com.deizon.projetospringintensivao.entities.Game;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.springframework.beans.BeanUtils;
 
-@NoArgsConstructor
 @Getter
-@Setter
-public class GameDTO {
+@NoArgsConstructor
+public class GameMinDTO {
 
     private Long id;
     private String title;
     private Integer year;
-    private String genre;
-    private String platforms;
-    private Double score;
     private String imgUrl;
     private String shortDescription;
-    private String longDescription;
 
-    public GameDTO(Game entity) {
-        BeanUtils.copyProperties(entity, this);
+    public GameMinDTO(Game entity) {
+        id = entity.getId();
+        title = entity.getTitle();
+        year = entity.getYear();
+        imgUrl = entity.getImgUrl();
+        shortDescription = entity.getShortDescription();
     }
 }
