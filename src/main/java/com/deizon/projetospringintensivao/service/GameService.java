@@ -1,6 +1,6 @@
 package com.deizon.projetospringintensivao.service;
 
-import com.deizon.projetospringintensivao.DTO.GameDTO;
+import com.deizon.projetospringintensivao.dto.GameDTO;
 import com.deizon.projetospringintensivao.entities.Game;
 import com.deizon.projetospringintensivao.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;

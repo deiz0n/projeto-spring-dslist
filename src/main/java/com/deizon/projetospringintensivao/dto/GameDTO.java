@@ -1,4 +1,4 @@
-package com.deizon.projetospringintensivao.DTO;
+package com.deizon.projetospringintensivao.dto;
 
 import com.deizon.projetospringintensivao.entities.Game;
 

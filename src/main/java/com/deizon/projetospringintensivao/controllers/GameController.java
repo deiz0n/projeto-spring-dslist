@@ -1,7 +1,6 @@
 package com.deizon.projetospringintensivao.controllers;
 
-import com.deizon.projetospringintensivao.DTO.GameDTO;
-import com.deizon.projetospringintensivao.entities.Game;
+import com.deizon.projetospringintensivao.dto.GameDTO;
 import com.deizon.projetospringintensivao.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
